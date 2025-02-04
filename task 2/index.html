@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LANDING PAGE : Digital Agency</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo">Digital Agency</div>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <div class="cta-buttons">
+            <button onclick="scrollToSection('contact')">Consult</button>
+            <button onclick="scrollToSection('about')">Get Started</button>
+        </div>
+        <div class="menu-toggle">&#9776;</div>
+    </header>
+
+    <section id="home" class="hero">
+        <h1>Welcome to Creative Digital Agency</h1>
+        <p>Your partner in digital transformation.</p>
+        <div class="hero-buttons">
+            <button onclick="scrollToSection('about')">Learn More</button>
+            <button onclick="scrollToSection('contact')">Contact Us</button>
+        </div>
+    </section>
+
+    <section id="about" class="features">
+        <h2>About Features</h2>
+        <div class="feature-container">
+            <div class="feature">
+                <img src="Creative Design.jpg" alt="Creative Design">
+                <h3>Creative Design</h3>
+            </div>
+            <div class="feature">
+                <img src="Web Development.jpg" alt="Web Development">
+                <h3>Web Development</h3>
+            </div>
+            <div class="feature">
+                <img src="Marketing.jpg" alt="Marketing">
+                <h3>Marketing</h3>
+            </div>
+        </div>
+    </section>
+    
+
+    <section id="services" class="services">
+        <h2>Our Services</h2>
+        <div class="service-container">
+            <div class="service-item">
+                <img src="Website Development.jpg" alt="Website Development">
+                <h3>Website Development</h3>
+            </div>
+            <div class="service-item">
+                <img src="SEO Optimization.jpg" alt="SEO Optimization">
+                <h3>SEO Optimization</h3>
+            </div>
+            <div class="service-item">
+                <img src="Branding.jpg" alt="Branding">
+                <h3>Branding</h3>
+            </div>
+        </div>
+    </section>
+    
+
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <form class="contact-form">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2025 Digital Agency. All Rights Reserved.</p>
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
